@@ -21,5 +21,11 @@
   "homepage": "https://github.com/NilukaSripalim/cypress-iam-ui-test#readme",
   "devDependencies": {
     "cypress": "^3.8.3"
+  },
+  "dependencies": {
+    "@cypress/webpack-preprocessor": "^4.1.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5"
   }
 }
