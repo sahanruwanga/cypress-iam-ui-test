@@ -1,0 +1,9 @@
+{
+
+ "baseUrl": "http://localhost:3000/login",
+  "screenshotsFolder": "cypress/screenshots",
+  "videosFolder": "cypress/videos"
+
+
+
+}
