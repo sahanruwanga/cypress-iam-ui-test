@@ -1,0 +1,27 @@
+{
+  "name": "sample-oauth2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NilukaSripalim/cypress-iam-ui-test.git"
+  },
+  "author": "NilukaSripali",
+  "keywords": [
+    "wso2-saml-oauth2",
+    "iam-cloud-test"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NilukaSripalim/cypress-iam-ui-test/issues"
+  },
+  "homepage": "https://github.com/NilukaSripalim/cypress-iam-ui-test#readme",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

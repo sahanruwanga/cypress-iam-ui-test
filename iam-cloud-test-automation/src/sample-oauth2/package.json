@@ -1,0 +1,36 @@
+{
+  "name": "sample-oauth2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "ui": "browser-sync start --proxy=localhost:8000 --files='**/*.css, **/*.pug, **/*.js' --ignore=node_modules --reload-delay 10 --no-ui --no-notify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NilukaSripalim/cypress-iam-ui-test.git"
+  },
+  "author": "NilukaSripali",
+  "keywords": [
+    "wso2-saml-oauth2",
+    "iam-cloud-test"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NilukaSripalim/cypress-iam-ui-test/issues"
+  },
+  "homepage": "https://github.com/NilukaSripalim/cypress-iam-ui-test#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "passport": "^0.4.1",
+    "passport-oauth2": "^1.5.0",
+    "pug": "^2.0.4"
+  }
+}

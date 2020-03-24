@@ -1,0 +1,10 @@
+{
+     "username": "Testclouduser",
+     "password": "user!ciam@wso2",
+     "firstName":"Firstname",
+     "lastName" : "Lastname",
+     "password" : "user!@ciam123",
+     "email" : "wso2iamtest@gmail.com",
+     "oraganization" : "WSO2",
+     "telephone" : "+94112233440"
+}

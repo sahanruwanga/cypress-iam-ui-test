@@ -1,0 +1,16 @@
+{
+   
+//    "baseUrl":"https://cloud.kubesb.com/",
+   "baseUrl":"https://localhost:9443/",
+   "screenshotsFolder": "cypress/screenshots",
+  "videosFolder": "cypress/videos",
+
+
+   "testFiles": [
+    "user_login.spec.js"
+    
+    
+  ]
+   
+}
+

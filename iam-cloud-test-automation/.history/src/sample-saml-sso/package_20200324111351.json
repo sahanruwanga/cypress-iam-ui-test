@@ -1,0 +1,11 @@
+{
+  "name": "sample-saml-sso",
+  "version": "1.0.0",
+  "description": "Node.js Express Application with SAML SSO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NilukaSripali",
+  "license": "ISC"
+}

@@ -1,0 +1,9 @@
+{
+
+  "baseUrl":"https://localhost:9443/",
+  "screenshotsFolder": "cypress/screenshots",
+  "videosFolder": "cypress/videos"
+
+
+
+}

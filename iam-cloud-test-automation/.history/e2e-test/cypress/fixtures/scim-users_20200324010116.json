@@ -1,0 +1,35 @@
+{
+  "emails": [
+    {
+      "type": "work",
+      "value": "autotestwork@wso2.com"
+    },
+    {
+      "type": "home",
+      "value": "test.auto@gmail.com"
+    },
+    "wso2iamtest@gmail.com"
+  ],
+  "meta": {
+    "created": "2020-03-23T19:31:17.469701Z",
+    "location": "https://localhost:9443/scim2/Users/2546c7a4-35e8-414b-a91f-cd3c4b9ec00c",
+    "lastModified": "2020-03-23T19:31:17.469701Z",
+    "resourceType": "User"
+  },
+  "schemas": [
+    "urn:ietf:params:scim:schemas:core:2.0:User",
+    "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User"
+  ],
+  "roles": [
+    {
+      "type": "default",
+      "value": "Internal/everyone"
+    }
+  ],
+  "name": {
+    "givenName": "Testuser",
+    "familyName": "Automation"
+  },
+  "id": "2546c7a4-35e8-414b-a91f-cd3c4b9ec00c",
+  "userName": "Scimtestuser"
+}

@@ -1,0 +1,9 @@
+{
+
+ // "baseUrl":"https://cloud.kubesb.com/",
+  "screenshotsFolder": "cypress/screenshots",
+  "videosFolder": "cypress/videos"
+
+
+
+}

@@ -1,0 +1,9 @@
+{"schemas":[],
+"name":{"familyName":"Automation","givenName":"Testuser"},
+"userName":"Scimtestuser",
+"password":"user!ciam@wso2",
+"emails":[{
+    "primary":true,"value":"test.auto@gmail.com","type":"home"},
+    {"value":"autotestwork@wso2.com","type":"work"},
+    {"value":"wso2iamtest@gmail.com"}
+    ]}
