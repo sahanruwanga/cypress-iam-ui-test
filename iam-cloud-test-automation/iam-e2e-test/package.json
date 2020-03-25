@@ -9,6 +9,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^4.2.0"
+    "cypress": "^4.2.0",
+    "cypress-dotenv": "^1.2.0"
+  },
+  "dependencies": {
+    "custom-env": "^2.0.1",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "util": "^0.12.2",
+    "xml2js": "^0.4.23",
+    "xml2json": "^0.12.0"
   }
 }
