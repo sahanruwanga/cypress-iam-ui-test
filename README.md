@@ -87,6 +87,8 @@ http://wso2.org/claims/role`
  
  
 Configure the SAML SSO as follows …
+
+
 `Issuer: SampleExpressApp
 Assertion Consumer URLs: http://localhost:3000/saml/consume
 Enable Response Signing: True
