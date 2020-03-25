@@ -12,22 +12,23 @@ cd /cypress-iam-ui-test/iam-cloud-test-automation/iam-e2e-test
 Install Node js
 
 Install npm
-            npm install
+            `npm install`
 
 Install Cypress
 
-         npm install --save-dev cypress
+         `npm install --save-dev cypress`
 
 Install Reporting dependencies
 
-          npm install mocha --save-dev
+        npm install mocha --save-dev
         npm install cypress-multi-reporters --save-dev
         npm install mochawesome --save-dev
         npm install mochawesome-merge --save-dev
         npm install mochawesome-report-generator --save-dev
+        
 Install packages. 
 Navigate to the root package.json and execute the following.
-npm install
+`npm install`
 
 
 Scenarios:
@@ -40,9 +41,9 @@ Execute tests
 
 Pre request: Run Sample SAML App
 Navigate to 
-cypress-iam-ui-test/iam-cloud-test-automation/src/sample-saml-sso
+`cypress-iam-ui-test/iam-cloud-test-automation/src/sample-saml-sso`
 Command
-npm start
+`npm start`
 
 There are two ways to execute the test. 
 Run a single Test against Cypress Test Runner without headless mode
@@ -71,6 +72,7 @@ Navigate to Main (Tab) -> Identity (Section) -> Service Providers (Sub-section) 
 The management console will display you the following screen to add a new service provider.
 
 `Service Provider Name: SampleExpressApp
+
 Description: Any valid description of the service provider`
 
 And click Register to register and create a new service provider.
@@ -78,9 +80,11 @@ Expand the Claim Configurations (accordion) to configure wanted claims and subje
 You can add all your wanted (requested claims) by clicking on the Add Claim URI button and selecting one from the drop-down menu
 
 For the demo, we will be selecting the following claims
+
 `http://wso2.org/claims/emailaddress
 http://wso2.org/claims/username
 http://wso2.org/claims/role`
+ 
  
 Configure the SAML SSO as follows …
 `Issuer: SampleExpressApp
